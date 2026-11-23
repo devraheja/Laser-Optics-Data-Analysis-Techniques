@@ -103,11 +103,6 @@ pytest
 
 Each script prints its results and writes them to `results/`, along with the figures in `figures/`.
 
-## Limitations
-
-- Only the processed tables survived, not the raw scans and images. Where the raw signal matters (the knife-edge curves, the interferograms), it is simulated from measured parameters and labelled as such.
-- The ±0.5 bin peak-position error in the spectrometer calibration is an assumption (peak read to the nearest FFT bin). The calibration χ² supports it, but with only two calibration lines that check is weak.
-- The 0.6 mm double-slit spacing is extrapolated linearly from the 2 mm data. The prism dispersion is not linear, so this is an estimate.
 
 ## References
 
